@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Spinner
+        android:id="@+id/spinnerYear"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerBrand"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="19dp"
+        android:entries="@array/years"
+        android:gravity="center"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinnerModel2"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerBrand"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="19dp"
+        android:entries="@array/acura_models"
+        android:gravity="center"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/model_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="347dp"
+        android:text="@string/model_title" />
+
+    <TextView
+        android:id="@+id/make_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="352dp"
+        android:text="Make" />
+
+    <TextView
+        android:id="@+id/year_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/model_text_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="357dp"
+        android:text="@string/year_title" />
+
+    <Spinner
+        android:id="@+id/spinnerBrand"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/make_text_view"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="19dp"
+        android:entries="@array/makes"
+        android:gravity="center"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/car_select_instructions"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="@string/instructions"
+        android:textAlignment="center"
+        android:textColor="#030000"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:background="#050000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerYear"
+        android:layout_marginTop="97dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="129dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="submitCarSearch"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="148dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/finalProjectAcknowledgments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="finalProjectAcknowledgmentButton"
+            android:text="Aknowledgments" />
+    </LinearLayout>
+
+</RelativeLayout>

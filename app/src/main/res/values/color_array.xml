@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string-array name="my_colors">red</string-array>-->
+
+    <color name="red">#D80300</color>
+    <color name="green">#34D60F</color>
+    <color name="orange">#FF5722</color>
+
+    <array name="colors">
+        <item>@color/red</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+    </array>
+
+</resources>
