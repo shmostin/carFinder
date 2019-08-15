@@ -9,9 +9,5 @@ platform while utilizing a special feature of the platform and a third party API
 
 
 # Screenshots
+<img src="https://user-images.githubusercontent.com/22112465/63130357-005ed200-bf6f-11e9-9902-5a89b2748c0a.png" width="300">
 
-```
-this is 
-a code 
-block
-```
