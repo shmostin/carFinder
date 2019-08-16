@@ -17,3 +17,13 @@ platform while utilizing a special feature of the platform and a third party API
   
 # Tech
 This app was **Built with:**
+
+- [OkHttp](https://square.github.io/okhttp/)
+- Picasso(https://square.github.io/picasso/)
+
+# Features
+This app was built so that the user can search nearby dealerships by `Make` `Model` and `Year` as well as click
+to link to the exact listing at the dealership.
+
+# API Reference
+See [apidocs.marketcheck.com](https://apidocs.marketcheck.com/?version=latest#74001596-20de-c0ce-ae6c-c6d73b206de1) for the documentation of the search api used in the app.
